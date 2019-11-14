@@ -1,0 +1,15 @@
+<!--Components/nav-bar/nav-bar.wxml-->
+<view class="footer-nav">
+	<view
+	 class="item-box"
+	 wx:for="{{navData}}"
+	 data-index="{{index}}"
+	 bindtap="handleNavClick"
+	 wx:key="{{index}}"
+	>
+		<image wx:if="{{activeIndex === index}}" style="width:40rpx;height:40rpx" src="{{item.activePath}}" />
+		<image wx:else style="width:40rpx;height:40rpx" src="{{item.iconPath}}" />
+		<text class="{{activeIndex === index ? 'active':'normal'}}">{{item.name}}</text>
+	</view>
+</view>
+
