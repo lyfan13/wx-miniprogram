@@ -1,21 +1,24 @@
 /**index.wxss**/
-.userinfo {
+.mask{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .1);
+  z-index: 5;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.input{
+  border: 1px solid #999999;
 }
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
+.container{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 100rpx;
 }

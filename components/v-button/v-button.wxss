@@ -1,0 +1,7 @@
+/* components/v-button/v-button.wxss */
+view{
+  background:white;
+  font-weight: 500;
+  font-size: 34rpx;
+  text-align: center;
+}

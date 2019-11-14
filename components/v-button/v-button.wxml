@@ -1,0 +1,4 @@
+<!-- components/v-button/v-button.wxml -->
+<view bind:tap="handleLogin" style="width:{{width}};height:{{height}};line-height:{{height}};background-color:{{bgColor}};color:{{color}};border-radius:{{radius}}">
+  {{text}}
+</view>
